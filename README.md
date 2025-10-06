@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+![Location](https://img.shields.io/badge/Made%20in-Norway-red)
+
 # Football Match Outcome Prediction ⚽
 
 Et enkelt maskinlæringsprosjekt som predikerer utfallet av fotballkamper (Hjemmeseier / Uavgjort / Borteseier) basert på historiske data.
@@ -19,3 +23,9 @@ football-prediction/
 
 ---
 Versjon: 0.1.0
+
+## TODO
+- [ ] Rydde datasett
+- [ ] Lage baseline modell (Logistic Regression)
+- [ ] Legge til rolling form-features
+- [ ] Bygge enkel Streamlit-app
