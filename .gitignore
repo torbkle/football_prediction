@@ -1,0 +1,25 @@
+# PyCharm
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Data (behold kun små testfiler i repoet)
+data/*.csv
+!data/example.csv   # behold en liten eksempel-fil hvis du vil
