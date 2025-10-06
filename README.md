@@ -15,3 +15,7 @@ football-prediction/
 ├── src/ # Python-moduler (feature engineering, modell) 
 ├── requirements.txt # Avhengigheter 
 └── README.md # Prosjektbeskrivelse
+
+
+---
+Versjon: 0.1.0
