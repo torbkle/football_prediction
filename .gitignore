@@ -1,17 +1,25 @@
-# PyCharm
+# IDE / Editor
 .idea/
 *.iml
+.vscode/
 
-# Python
+# Python cache/compiled
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Logs
 *.log
 
 # Virtual environments
 venv/
 .venv/
+env/
+ENV/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -20,6 +28,14 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
 # Data (behold kun små testfiler i repoet)
-data/*.csv
+data/*
 !data/example.csv   # behold en liten eksempel-fil hvis du vil
+
+# Notebooks output (valgfritt, hvis du vil ha rene notebooks uten output)
+*.nbconvert.ipynb
