@@ -1,8 +1,12 @@
+![Tests](https://github.com/torbkle/football_prediction/actions/workflows/python-tests.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 ![Location](https://img.shields.io/badge/Made%20in-Norway-red)
 
 # Football Match Outcome Prediction ⚽
+
+
 
 Et enkelt maskinlæringsprosjekt som predikerer utfallet av fotballkamper (Hjemmeseier / Uavgjort / Borteseier) basert på historiske data.
 
