@@ -25,5 +25,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Kjør pytest
-        run: |
-          pytest
+        run: python -m pytest tests -v
