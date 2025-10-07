@@ -1,9 +1,9 @@
-name: Release
+﻿name: Release
 
 on:
   push:
     tags:
-      - 'v*.*.*'   # kjører når du pusher en tag som v0.1.0, v0.2.0 osv.
+      - 'v*.*.*'   # kjÃ¸rer nÃ¥r du pusher en tag som v0.1.0, v0.2.0 osv.
 
 jobs:
   release:

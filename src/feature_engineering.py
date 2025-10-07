@@ -1,9 +1,9 @@
-import pandas as pd
+﻿import pandas as pd
 
 # Enkel feature: hjemmelagsfordel
 def add_home_advantage_feature(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Legger til en binær feature 'home_advantage':
+    Legger til en binÃ¦r feature 'home_advantage':
     1 hvis laget spiller hjemme, 0 ellers.
     """
     df["home_advantage"] = (df["home_team"] == df["team"]).astype(int)
